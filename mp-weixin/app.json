@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/login/index",
+    "pages/index/index",
+    "pages/museum-detail/museum-detail",
+    "pages/web-view/web-view"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "杭州红色文化展馆",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {}
+}

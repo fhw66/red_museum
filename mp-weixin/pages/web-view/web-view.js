@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),n={data:()=>({url:""}),onLoad(n){n.url?this.url=decodeURIComponent(n.url):(e.index.showToast({title:"URL参数缺失",icon:"none"}),e.index.navigateBack())}};const o=e._export_sfc(n,[["render",function(e,n,o,r,t,a){return{a:t.url}}]]);wx.createPage(o);
